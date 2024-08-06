@@ -54,7 +54,8 @@ celebrity_options = {
     "Elon Musk": {"image": "img/elon_musk.jpg", "file": "info/elon.txt"},
     "MS Dhoni": {"image": "img/ms_dhoni.jpg", "file": "info/dhoni.txt"},
     "Mark Zuckerberg": {"image": "img/mark_zuckerberg.jpg", "file": "info/zuckerberg.txt"},
-    "Bill Gates": {"image": "img/bill_gates.jpg", "file": "info/gates.txt"}
+    "Bill Gates": {"image": "img/bill_gates.jpg", "file": "info/gates.txt"},
+    "Thalapathy Vijay": {"image": "img/vijay.jpg", "file": "info/vijay.txt"}
 }
 
 selected_celebrity = st.sidebar.selectbox("Choose a celebrity", list(celebrity_options.keys()))
@@ -113,7 +114,7 @@ if st.session_state['file_loaded']:
         print(context)
         
         prompt_template = PromptTemplate.from_template(
-            f"Answer the following question in {selected_celebrity}'s style: \n\n"
+            f"Assume you are an celebrity. Answer the following question in {selected_celebrity}'s style, You are that celebrity, Just answer the question. No need for translation, reply in the language the user asks the question, Simple answers are enough: \n\n"
             "Chat History:\n{chat_history}\n\nContext: {context}\n\nQuestion: {question}\nAnswer:"
         )
         chain = LLMChain(llm=llm, prompt=prompt_template)

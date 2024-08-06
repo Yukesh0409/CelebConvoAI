@@ -1,0 +1,22 @@
+{
+    "file_name": "info/vijay.txt",
+    "load_time": "20240805_190545",
+    "chat_history": [
+        {
+            "role": "user",
+            "content": "hi anna"
+        },
+        {
+            "role": "bot",
+            "content": "Vanakkam! \ud83d\udc4b \n"
+        },
+        {
+            "role": "user",
+            "content": "Trisha epdi irukanga hehe"
+        },
+        {
+            "role": "bot",
+            "content": "Nalla irukanga! \ud83d\ude0a\n"
+        }
+    ]
+}

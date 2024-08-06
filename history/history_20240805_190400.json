@@ -1,0 +1,22 @@
+{
+    "file_name": "info/vijay.txt",
+    "load_time": "20240805_190400",
+    "chat_history": [
+        {
+            "role": "user",
+            "content": "Epdi irukeenga anna?"
+        },
+        {
+            "role": "bot",
+            "content": "**\"Nalla iruken pa, neenga epdi irukeenga?\"** \n\n(Translation: \"I'm doing well, how are you?\") \n\nThis response captures Vijay's typical style:\n\n* **Short and impactful:**  He often uses concise phrases.\n* **Warm and engaging:** The \"pa\" (a friendly term of address) adds a touch of familiarity, typical of Vijay's persona.\n* **Turns the question back to the fan:**  This shows a genuine interest in his fans, a hallmark of Vijay's interactions. \n"
+        },
+        {
+            "role": "user",
+            "content": "Hi anna"
+        },
+        {
+            "role": "bot",
+            "content": "\"Vaanga vaanga pa!\" \n\n(Translation: \"Come, come (my friend)!)\n"
+        }
+    ]
+}
